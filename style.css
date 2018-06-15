@@ -1,0 +1,205 @@
+/*Global*/
+:root {
+  --main-color: #f28500;
+  --accent-color-1: white;
+  --accent-color-2: lightgrey;
+  --accent-color-3: grey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'Open Sans', sans-serif ;
+
+}
+
+body{
+	font-family: 'Open Sans', sans-serif ;
+	line-height: 150%;
+	padding-bottom: 50px;
+	
+}
+
+/*Landing Page*/
+
+
+.main-header{
+	background: var(--main-color);
+	background-size: cover;
+	height:100vh;
+	padding-top: 50px;
+	line-height: normal;
+	
+}
+
+.title{
+	font-size: 4em;
+	color: var(--accent-color-1);
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+.subtitle{
+	font-size: 2em;
+	color: var(--accent-color-1);
+	display: block;
+	text-align: center;
+	
+	
+}
+
+.michelle-photo{
+	display: block;
+	border-radius: 50%;
+	background-size: cover;
+	border: 10px solid var(--accent-color-1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+	}
+
+/*Nav on Landing Page*/
+nav{
+	text-align:center;
+	
+}
+
+.nav-item{
+	display: inline-block;	
+	padding: 15px 15px;
+}
+
+.nav-link:link{
+	color: var(--accent-color-1);
+	text-decoration: none;
+}
+
+.nav-link:visited{
+	color: var(--accent-color-1);
+}
+
+
+.nav-link:hover{
+		text-decoration: underline;
+
+}
+
+
+/*Contact Section*/
+.contact-link:link{
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+.contact-link:visited{
+	color: var(--main-color);
+	
+}
+
+.contact-link:hover{
+	text-decoration: underline;
+	
+}
+
+.fa{
+	/*font-size: 2em;*/
+	color:var(--main-color);
+}
+
+/*Resume Section*/
+
+.page-title{
+	font-size: 1.5em;
+	color: var(--main-color);
+	margin:auto;
+	width: max-content;
+	border-bottom: 2px solid var(--accent-color-2);
+	align-content:center;
+	padding-top: 30px;
+}
+
+.resume{
+	width: 70%;
+	margin: auto;
+	padding-top: 30px;
+	background:var(--accent-color-1);
+}
+
+.resume-item{
+	margin:auto;
+	padding-bottom: 20px;
+	display: block;
+}
+
+.resume-item-hidden{
+
+	display: none;
+}
+
+.company{
+	width:20%;
+	float: left;
+	display: inline-block;
+	align-content: left;
+}
+
+.logo{
+	max-width:100%;
+	max-height:100%;
+}
+.resume-item-title{
+	font-size: 1.3em;
+	margin-top: 0px;
+}
+
+
+.resume-item-time{
+	font-style: italic;
+	}
+
+.details{
+	width: 80%;
+	display: inline-block;
+	padding-left: 50px;
+	font-size: 1em;
+	
+}
+
+
+
+.skills-list{
+	text-align:center;
+}
+
+.skills-list-item{
+	display: inline-block;	
+	padding: 15px 15px;
+	font-style: bold;
+	color: var(--accent-color-1);
+	background-color: var(--main-color);
+}
+
+.button-div{
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+button{
+	align: center;
+	font-size: 24px;
+	background-color: var(--accent-color-1);
+	color: var(--main-color);
+	border: solid 3px var(--main-color);
+	length: 100px;
+	height: 50px
+}
+
+button:focus{
+	outline: none;
+}
+
+
